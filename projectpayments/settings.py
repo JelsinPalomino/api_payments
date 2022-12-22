@@ -88,14 +88,15 @@ WSGI_APPLICATION = 'projectpayments.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'api_payments',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': 'jelsin',
-        'HOST': '127.0.0.1',
-        'PORT': '3306'
+        'PASSWORD': '9aIBDLuAXariHEPyNn1P',
+        'HOST': 'containers-us-west-144.railway.app',
+        'PORT': '6407'
     }
 }
 
